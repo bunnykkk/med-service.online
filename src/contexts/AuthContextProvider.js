@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 export const authContext = React.createContext();
 export const useAuth = () => useContext(authContext);
 
-const API = "";
+const API = "http://api.med-service.online/";
 
 const AuthContextProvider = ({ children }) => {
   return <authContext.Provider value={{}}>{children}</authContext.Provider>;
