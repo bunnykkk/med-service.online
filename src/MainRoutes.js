@@ -8,6 +8,9 @@ import HomePage from "./pages/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
 import ProductDetails from "./pages/ProductDetailsPage";
 import ProductPage from "./pages/ProductPage";
+import ContactPage from "./pages/ContactPage";
+import DirectionPage from "./pages/DirectionPage";
+import DoctorsPage from "./pages/DoctorsPage";
 
 const MainRoutes = () => {
   const PUBLIC_ROUTES = [
@@ -50,6 +53,21 @@ const MainRoutes = () => {
       link: "/product",
       element: <ProductPage />,
       id: 8,
+    },
+    {
+      link: "/contact",
+      element: <ContactPage />,
+      id: 9,
+    },
+    {
+      link: "/direction",
+      element: <DirectionPage />,
+      id: 10,
+    },
+    {
+      link: "/doctors",
+      element: <DoctorsPage />,
+      id: 11,
     },
   ];
 
