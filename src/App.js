@@ -1,5 +1,4 @@
 import React from "react";
-import HomePage from "./pages/HomePage";
 import AuthContextProvider from "./contexts/AuthContextProvider";
 import ProductContextProvider from "./contexts/ProductContextProvider";
 import MainRoutes from "./MainRoutes";
