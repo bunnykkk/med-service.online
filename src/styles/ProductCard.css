@@ -1,11 +1,15 @@
-
 .product {
-    font-size: 24px;
-    border: none;
-    background-color: #ffff;
+  font-size: 24px;
+  border: none;
+  background-color: #ffff;
 }
-.product:hover{
-    background: linear-gradient(263.19deg, #67AFE3 0.63%, rgba(173, 211, 238, 0.32) 91.2%);
-    box-shadow: 4px 4px 4px 4px rgba(120, 195, 254, 0.4);
-    border-radius: 20px;
+
+.product:hover {
+  background: linear-gradient(
+    263.19deg,
+    #67afe3 0.63%,
+    rgba(173, 211, 238, 0.32) 91.2%
+  );
+  box-shadow: 4px 4px 4px 4px rgba(120, 195, 254, 0.4);
+  border-radius: 20px;
 }
