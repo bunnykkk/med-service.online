@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage";
 import AuthContextProvider from "./contexts/AuthContextProvider";
 import ProductContextProvider from "./contexts/ProductContextProvider";
 import MainRoutes from "./MainRoutes";
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <ProductContextProvider>
         <AuthContextProvider>
           <MainRoutes />
+          <Footer />
         </AuthContextProvider>
       </ProductContextProvider>
     </>
