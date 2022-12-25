@@ -11,6 +11,7 @@ import {
 import doctorImg from "../../img/confident-doctor.png";
 import smilingImg from "../../img/portrait-smiling.png";
 import prettyImg from "../../img/smiling-pretty.png";
+import { useNavigate } from "react-router-dom";
 
 const BootstrapButton = styled(Button)({
   boxShadow: "none",
@@ -33,6 +34,8 @@ const BootstrapButton = styled(Button)({
 });
 
 const ProductDetails = () => {
+  const navigate = useNavigate();
+
   return (
     <Grid mt={5} container spacing={5}>
       <Grid justifyContent={"center"} container>
@@ -141,7 +144,10 @@ const ProductDetails = () => {
       </Grid>
       <Grid mt={4} justifyContent={"center"} container>
         <Grid textAlign={"center"} xs={3}>
-          <BootstrapButton variant="contained" disableRipple>
+          <BootstrapButton
+            variant="contained"
+            disableRipple
+            onClick={() => navigate("/doctors")}>
             наши врачи
           </BootstrapButton>
         </Grid>
