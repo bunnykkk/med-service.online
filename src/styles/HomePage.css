@@ -91,4 +91,47 @@
   border: 1px solid #020b57;
   margin-left: 37%;
   margin-top: 10px;
+  background: url();
+}
+.img-1 {
+  width: 1400px;
+  height: 678px;
+}
+
+.container-10 {
+  margin-left: 840px;
+  padding-top: 279px;
+}
+.h2-text {
+  color: #020b57;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  width: 474px;
+}
+.h2-p-text {
+  color: rgba(0, 0, 0, 0.7);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  width: 474px;
+  height: 87px;
+  margin-top: 30px;
+}
+.btn-h2 {
+  background: #011669;
+  border: 3px solid #ffffff;
+  box-shadow: 4px 4px 15px 4px rgba(47, 73, 177, 0.2);
+  border-radius: 30px;
+  width: 222px;
+  height: 59px;
+  radius: 30px;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 120px;
+  margin-top: 25px;
 }

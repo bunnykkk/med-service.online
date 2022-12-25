@@ -5,9 +5,23 @@ import "../../styles/HomePage.css";
 const HomePage = () => {
   return (
     <div>
-      <p style={{}}>
-        <img src={img2} alt="" />
-      </p>
+      <div
+        style={{
+          backgroundImage: `url('${img2}')`,
+          backgroundRepeat: "no-repeat",
+        }}
+        className="img-1">
+        <div className="container-10">
+          <h2 className="h2-text">
+            Восстановление и сохранение Вашего здоровья.
+          </h2>
+          <p className="h2-p-text">
+            Широкий спектр медицинских услуг: •пластические операции •хирургия
+            •гинекология и многое другое.
+          </p>
+          <button className="btn-h2">Записаться </button>
+        </div>
+      </div>
       <div>
         <h1 className="text-5">Наш центр предоставляет вам</h1>
         <p className="helper"></p>
