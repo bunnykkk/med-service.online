@@ -3,6 +3,7 @@ import { Grid, Typography } from "@mui/material";
 import enrollImg from "../../img/Intersect.png";
 
 function ProductList() {
+
   return (
     <div
       style={{
